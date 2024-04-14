@@ -1,0 +1,47 @@
+/* CSS Classes */
+.appBar {
+  border-radius: 15px;
+  margin: 30px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  flex-wrap: wrap;
+}
+
+.heading {
+  color: rgba(0, 183, 255, 1);
+  text-decoration: none;
+}
+
+.image {
+  margin-left: 15px;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: flex-end;
+  width: 400px;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.userName {
+  display: flex;
+  align-items: center;
+}
+
+.brandContainer {
+  display: flex;
+  align-items: center;
+}
+
+.purple {
+  color: #ffffff; /* Assuming the theme.palette.getContrastText(deepPurple[500]) gives white text color */
+  background-color: #673ab7; /* Assuming deepPurple[500] represents this color */
+}

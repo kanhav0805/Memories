@@ -1,0 +1,26 @@
+.root {
+  /* '&' represents the root element */
+  & .MuiTextField-root {
+    margin: 8px;
+  }
+}
+
+.paper {
+  padding: 16px; /* Assuming theme.spacing(2) translates to 16px */
+  margin-top: 0;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fileInput {
+  width: 97%;
+  margin: 10px 0;
+}
+
+.buttonSubmit {
+  margin-bottom: 10px; /* Corrected to 'margin-bottom' */
+}
